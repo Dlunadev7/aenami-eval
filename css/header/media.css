@@ -1,0 +1,9 @@
+@media screen and (min-width: 720px) {
+  .header__desktop__menu {
+    display: block;
+  }
+
+  .header__btn-menu {
+    display: none;
+  }
+}

@@ -1,0 +1,30 @@
+
+.footer{
+  height: 80px;
+  background-color: #2a3037;
+}
+
+.footer__container {
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  max-width: 1088px;
+  margin: auto;
+}
+
+.footer__container > img {
+  width: 70px;
+  height: 13px;
+}
+
+.social__network {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.social__network__item > img {
+  margin-right: 12px;
+}

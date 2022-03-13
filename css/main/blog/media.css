@@ -1,0 +1,33 @@
+@media screen and (min-width: 768px) {
+
+  .main__section__blog {
+    top: -130px;
+  }
+
+  .main__blog__secondary__content {
+    display: flex;
+    margin-top: 24px
+  }
+
+  .main__blog__container {
+    padding: 0 24px
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .main__blog__gallery {
+    flex-direction: row;
+  }
+
+  .main__blog__primary__content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .main__blog__secondary__content {
+    flex-direction: column;
+    margin: 0 24px;
+    justify-content: space-between;
+  }
+}

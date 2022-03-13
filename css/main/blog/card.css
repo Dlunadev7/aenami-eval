@@ -1,0 +1,30 @@
+.main__blog__card {
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0px 3px 6px #00000029;
+  display: flex;
+  flex-direction: column;
+  height: 314px;
+  margin-right: 12px;
+  width: 352px;
+  height: 272px;
+}
+
+.main__blog__card__description {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+
+.main__blog__card__title {
+  margin: 12px 0;
+}
+
+.main__blog__card__data {
+  display: flex;
+  align-items: center;
+}
+
+.main__blog__card__data > img {
+  margin-right: 6px;
+}

@@ -1,0 +1,22 @@
+
+.main__section__blog {
+  position: relative;
+  top: -90px;
+  height: auto;
+}
+
+.main__blog__container {
+  max-width: 1088px;
+  margin: auto;
+}
+
+
+.main__blog__title {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 16px 0px;
+  margin-bottom: 18px;
+  color: #2A3037;
+  padding: 24px;
+}

@@ -1,0 +1,24 @@
+
+.main__section__trends {
+  background-color: #EBEBEB;
+  height: 612px;
+  position: relative;
+}
+
+
+.main__trends__container {
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-width: 1088px;
+  margin: auto;
+}
+
+.main__trends__title {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #2a3037;
+  margin: 32px 0;
+}

@@ -1,0 +1,15 @@
+@import url('./blog/blog.css');
+@import url('./blog/card.css');
+@import url('./blog/gallery.css');
+@import url('./blog/media.css');
+
+@import url('./home/adventure.css');
+@import url('./home/home.css');
+@import url('./home/media.css');
+
+@import url('./trends/card.css');
+@import url('./trends/carousel.css');
+@import url('./trends/trends.css');
+
+@import url('./main.css');
+

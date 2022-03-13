@@ -1,0 +1,11 @@
+
+.main__trends__carousel {
+  display: flex;
+  overflow-x: scroll;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.main__trends__carousel::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,80 @@
+
+.main__section__home {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../../assets/img/Viajes_Hero.jpg");
+  background-size: cover;
+  background-position-x: 37%;
+
+}
+
+.main__home__container {
+  padding: 16px 28px;
+  width: 100%;
+  max-width: 1088px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__floating__content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 536px;
+}
+
+.main__floating__presentation {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.main__floating__location {
+  width: 12px;
+  height: 17px;
+  margin-right: 6px;
+}
+
+.main__floating__title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.main__floating__presentation::after {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: 0;
+  height: 2px;
+  background-color: #fff;
+  border-radius: 12px;
+  width: 100%;
+}
+
+.main__floating__paragraph-1 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+.main__floating__paragraph-2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #CBD0D3;
+  display: none;
+}
+
+
+.main__home__nav-slider {
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+}
+

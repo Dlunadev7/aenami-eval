@@ -1,0 +1,46 @@
+@media screen and (min-width: 720px) {
+  
+  .main__floating__location {
+    width: 24px;
+    height: 34px;
+  }
+
+  .main__floating__title {
+    font-size: 48px;
+  }
+
+  .main__floating__presentation::after {
+    top: 80px;
+  }
+
+  .main__floating__paragraph-1 {
+    font-size: 24px;
+  }
+
+  .main__floating__paragraph-2 {
+    display: block;
+  }
+
+  .main__home__nav-slider {
+    left: 10%;
+  }
+
+  .main__home__nav-slider > img {
+    width: 111px;
+  }
+
+  .main__home__nav-slider::before {
+    content: "";
+    position: absolute;
+    top: -0%;
+    left: 0;
+    width: 150px;
+    height: 6.5px;
+    background: #FA6980;
+    transform: translate(-90%, 436%);
+  }
+
+  .main__home__next__adventure {
+    display: flex;
+  }
+}

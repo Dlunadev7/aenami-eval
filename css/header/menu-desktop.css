@@ -1,0 +1,22 @@
+.header__desktop__menu {
+  display: none;
+}
+
+.desktop__menu__container {
+  display: flex;
+  width: 280px;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.desktop__menu__item > a {
+  font-size: 18px;
+  color: #CBD0D3;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.first > a {
+  color: #2a3037;
+}
